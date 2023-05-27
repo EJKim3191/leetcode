@@ -29,7 +29,6 @@ var longestPalindrome = function(s) {
             front += j;
             back += j;
             let palindrome = s.slice(front, back);
-            // console.log(palindrome)
             if(isPalindrome(palindrome)){
                 answer = palindrome;
                 break;
